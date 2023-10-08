@@ -98,6 +98,19 @@
     color: #D3B697;
 }
 
+.par{
+    position: absolute;
+    text-align: center;
+    width: 759px;
+    top: 1004px;
+    font-family: "Karantina-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
 .ScientistsKnow{
     position: absolute;
     width: auto;
@@ -145,7 +158,7 @@
     top: 2496px;
     left: 0px;
 
-    background: #292941
+    background-image: url("space.png");
 }
 
 .Lunar{

@@ -49,11 +49,11 @@
 
 }
 
-.OccurAnFreq .section1{
+.section1{
     position: absolute;
+    text-align: center;;
     width: 1440px;
     height: 63;
-    left: 120px;
     top: 31px;
 
     font-family: 'Karantina';
@@ -63,6 +63,248 @@
     line-height: 97px;
 
     color: #D3B697;
+}
 
-    border: 1px solid #000000;
+.PictureSlides{
+    position: absolute;
+    width: auto;
+    height: 832px;
+    left: 0px;
+}
+
+.Divider{
+    position:absolute;
+    width: 1440px;
+    height: 832px;
+    top: 832px;
+    left: 0px;
+
+    background: #292941
+}
+
+.section2{
+    position: absolute;
+    text-align: center;
+    width: 1440px;
+    height: 63;
+    top: 863px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.ScientistsKnow{
+    position: absolute;
+    width: auto;
+    height: 832px;
+    left: 0px;
+}
+
+.Divider2{
+    position:absolute;
+    width: 1440px;
+    height: 832px;
+    top: 1664px;
+    left: 0px;
+
+    background: #32334f
+}
+
+.section3{
+    position: absolute;
+    text-align: center;
+    width: 1440px;
+    height: 63;
+    top: 1695px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.LunarVsSolar{
+    position: absolute;
+    width: auto;
+    height: 832px;
+    left: 0px;
+}
+
+.Divider3{
+    position:absolute;
+    width: 1440px;
+    height: 832px;
+    top: 2496px;
+    left: 0px;
+
+    background: #292941
+}
+
+.Lunar{
+    position: absolute;
+    width: 329px;
+    height: 92px;
+    left: 91px;
+    top: 2527px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color:#D3B697;
+}
+
+.Solar{
+    position: absolute;
+    width: 329px;
+    height: 92px;
+    left: 1021px;
+    top: 2527px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color:#D3B697;
+}
+
+.SeasonsBiWeekly{
+    position: absolute;
+    width: auto;
+    height: 832px;
+    left: 0px;
+}
+
+.Divider4{
+    position:absolute;
+    width: 1440px;
+    height: 832px;
+    top: 3328px;
+    left: 0px;
+
+    background: #32334f
+}
+
+.section4{
+    position: absolute;
+    text-align: center;
+    width: 1440px;
+    height: 63;
+    top: 3359px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.End{
+    position: absolute;
+    text-align: center;
+    width: 1440px;
+    height: 300px;
+    top: 5100px;
+
+    background: #202131;
+}
+
+.textEnd{
+    position:absolute;
+    text-align: center;
+    width: 1440px;
+    height: 63;
+    top: 7px;
+
+    color: #ffffff;
+}
+
+.footer{
+    position: absolute;
+    width: 1435px;
+    height: 267px;
+    top: 5133px;
+    left: 5px;
+
+    background-color: var(--cold-grey90);
+}
+
+.menu-header {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 60px;
+    left: 218px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-link:visited {
+    color: #800080;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.menu-footer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 144px;
+    left: 200px;
+    padding: -15px;
+  }
+
+.social_1{
+    position: absolute;
+    width: 12px;
+    height: 22px;
+    top: 59px;
+    left: 1015px;
+}
+
+.social_2{
+position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 58px;
+    left: 1061px;
+}
+
+.social_3{
+    position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 58px;
+  left: 1117px;
+}
+
+.social_4{
+    position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 59px;
+  left: 1176px;
+  background-image: url(./img/instagram.svg);
+  background-size: 100% 100%;
 }
